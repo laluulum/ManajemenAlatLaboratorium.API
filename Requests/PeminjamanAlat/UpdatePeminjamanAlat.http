@@ -1,0 +1,51 @@
+@id=3
+
+PUT https://localhost:7119/api/peminjaman-alat/{{id}}
+Content-Type: application/json
+
+{
+    "dikembalikanPadaTanggal": "2023-08-25T08:00:00"
+}
+
+###
+
+PUT https://localhost:7119/api/peminjaman-alat/{{id}}
+Content-Type: application/json
+
+{
+    "tanggalPeminjaman": "2023-08-18T13:24:00",
+    "peminjamId": 2,
+    "detailPeminjamanAlat": 
+    [
+        {
+            "alatId": 1,
+            "jumlah": 3
+        },
+        {
+            "alatId": 2,
+            "jumlah": 3
+        }
+    ]
+}
+
+###
+
+PUT https://localhost:7119/api/peminjaman-alat/{{id}}
+Content-Type: application/json
+
+{
+    "tanggalPeminjaman": "2023-08-18T13:24:00",
+    "dikembalikanPadaTanggal": null,
+    "peminjamId": 2,
+    "detailPeminjamanAlat": 
+    [
+        {
+            "alatId": 1,
+            "jumlah": 3
+        },
+        {
+            "alatId": 2,
+            "jumlah": 3
+        }
+    ]
+}

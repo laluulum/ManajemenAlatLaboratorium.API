@@ -1,0 +1,23 @@
+POST https://localhost:7119/api/peminjam
+Content-Type: application/json
+
+{
+    "nama": "Dani Gelen",
+    "email": "danigelen@gmail.com",
+    "alamat": "Jl Lengkok Raya, Pancor, Jawa Barat",
+    "nomorhandphone": "085913245921",
+    "aktif": true
+}
+
+###
+
+# POST https://localhost:7119/api/peminjam
+# Content-Type: application/json
+
+# {
+#     "nama": "Ahmad Baehaqi",
+#     "email": "baehaqiA12@gmail.com",
+#     "alamat": "Jl Magelang, Yogyakarta",
+#     "nomorhandphone": "082113245888",
+#     "aktif": true
+# }

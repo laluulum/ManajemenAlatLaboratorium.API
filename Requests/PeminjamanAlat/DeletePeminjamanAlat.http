@@ -1,0 +1,3 @@
+@id=3
+
+DELETE https://localhost:7119/api/peminjaman-alat/{{id}}

@@ -1,0 +1,30 @@
+POST https://localhost:7119/api/alat
+Content-Type: application/json
+
+{
+    "nama": "Lampu Spirtus",
+    "deskripsi": "Lampu pemanas api dengan bahan bakar dari spirtus",
+    "total": 10
+}
+
+###
+
+# POST https://localhost:7119/api/alat
+# Content-Type: application/json
+
+# {
+#     "nama": "Beaker Gelas",
+#     "deskripsi": "Beaker gelas untuk menampung sample / bahan sementara",
+#     "total": 15
+# }
+
+# ###
+
+# POST https://localhost:7119/api/alat
+# Content-Type: application/json
+
+# {
+#     "nama": "Komputer",
+#     "deskripsi": "PC Laboratorium",
+#     "total": 8
+# }

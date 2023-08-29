@@ -1,0 +1,10 @@
+@id=3
+
+PUT https://localhost:7119/api/alat/{{id}}
+Content-Type: application/json
+
+{
+    "nama": "Laptop",
+    "deskripsi": "Laptop Laboratorium",
+    "total": 6
+}

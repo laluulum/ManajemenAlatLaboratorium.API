@@ -1,0 +1,12 @@
+@id=3
+
+PUT https://localhost:7119/api/peminjam/{{id}}
+Content-Type: application/json
+
+{
+    "nama": "Dani Pasti Gelen",
+    "email": "danigelengelen@gmail.com",
+    "alamat": "Jl Lengkok Raya, Pancor, Sumatera Timur",
+    "nomorhandphone": "085913245921",
+    "aktif": true
+}

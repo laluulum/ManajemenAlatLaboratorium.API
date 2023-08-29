@@ -1,0 +1,7 @@
+@id=3
+
+GET https://localhost:7119/api/peminjaman-alat/{{id}}
+
+###
+
+GET https://localhost:7119/api/peminjaman-alat

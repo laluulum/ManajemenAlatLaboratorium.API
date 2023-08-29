@@ -1,0 +1,18 @@
+POST https://localhost:7119/api/peminjaman-alat
+Content-Type: application/json
+
+{
+    "tanggalPeminjaman": "2023-08-14T08:00:00",
+    "peminjamId": 1,
+    "detailPeminjamanAlat": 
+    [
+        {
+            "alatId": 1,
+            "jumlah": 2
+        },
+        {
+            "alatId": 2,
+            "jumlah": 4
+        }
+    ]
+}

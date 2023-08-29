@@ -1,0 +1,7 @@
+@id=1
+
+GET https://localhost:7119/api/peminjam/{{id}}
+
+###
+
+GET https://localhost:7119/api/peminjam
